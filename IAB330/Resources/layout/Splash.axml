@@ -16,9 +16,33 @@
         p1:layout_width="wrap_content"
         p1:layout_height="wrap_content"
         p1:layout_above="@id/SPLIT"
-        p1:id="@+id/imageView1"
+        p1:id="@+id/Logo"
         p1:minWidth="100dp"
         p1:minHeight="100dp"
         p1:layout_centerHorizontal="true"
         p1:layout_marginBottom="20dp" />
+    <RelativeLayout
+        p1:minWidth="25px"
+        p1:minHeight="100px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/SPLIT"
+        p1:id="@+id/AppText_Layout">
+        <TextView
+            p1:text="M E R C U R Y"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Mercury_Text"
+            p1:layout_centerHorizontal="true"
+            p1:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_below="@id/AppText_Layout"
+        p1:id="@+id/TELSTRA_LOGO"
+        p1:layout_centerHorizontal="true"
+        p1:layout_marginTop="50dp" />
 </RelativeLayout>

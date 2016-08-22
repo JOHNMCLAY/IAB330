@@ -60,6 +60,9 @@ namespace IAB330
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050011
+			public const int AppText_Layout = 2131034129;
+			
 			// aapt resource value: 0x7f050000
 			public const int BG = 2131034112;
 			
@@ -72,8 +75,14 @@ namespace IAB330
 			// aapt resource value: 0x7f050004
 			public const int ID_Picture = 2131034116;
 			
+			// aapt resource value: 0x7f050010
+			public const int Logo = 2131034128;
+			
 			// aapt resource value: 0x7f050002
 			public const int MERCURY = 2131034114;
+			
+			// aapt resource value: 0x7f050012
+			public const int Mercury_Text = 2131034130;
 			
 			// aapt resource value: 0x7f050009
 			public const int PinInputDone_Center = 2131034121;
@@ -102,14 +111,14 @@ namespace IAB330
 			// aapt resource value: 0x7f05000f
 			public const int SPLIT = 2131034127;
 			
+			// aapt resource value: 0x7f050013
+			public const int TELSTRA_LOGO = 2131034131;
+			
 			// aapt resource value: 0x7f050003
 			public const int UserDetails_LAYOUT = 2131034115;
 			
 			// aapt resource value: 0x7f050005
 			public const int UserName_text = 2131034117;
-			
-			// aapt resource value: 0x7f050010
-			public const int imageView1 = 2131034128;
 			
 			static Id()
 			{
