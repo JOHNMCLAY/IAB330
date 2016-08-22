@@ -61,7 +61,55 @@ namespace IAB330
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int MyButton = 2131034112;
+			public const int BG = 2131034112;
+			
+			// aapt resource value: 0x7f05000e
+			public const int BG_Splash = 2131034126;
+			
+			// aapt resource value: 0x7f050001
+			public const int Header_LAYOUT = 2131034113;
+			
+			// aapt resource value: 0x7f050004
+			public const int ID_Picture = 2131034116;
+			
+			// aapt resource value: 0x7f050002
+			public const int MERCURY = 2131034114;
+			
+			// aapt resource value: 0x7f050009
+			public const int PinInputDone_Center = 2131034121;
+			
+			// aapt resource value: 0x7f05000b
+			public const int PinInputDone_Left = 2131034123;
+			
+			// aapt resource value: 0x7f05000d
+			public const int PinInputDone_Right = 2131034125;
+			
+			// aapt resource value: 0x7f050008
+			public const int PinInput_Center = 2131034120;
+			
+			// aapt resource value: 0x7f05000a
+			public const int PinInput_Left = 2131034122;
+			
+			// aapt resource value: 0x7f05000c
+			public const int PinInput_Right = 2131034124;
+			
+			// aapt resource value: 0x7f050007
+			public const int Pin_LAYOUT = 2131034119;
+			
+			// aapt resource value: 0x7f050006
+			public const int Request_Counter = 2131034118;
+			
+			// aapt resource value: 0x7f05000f
+			public const int SPLIT = 2131034127;
+			
+			// aapt resource value: 0x7f050003
+			public const int UserDetails_LAYOUT = 2131034115;
+			
+			// aapt resource value: 0x7f050005
+			public const int UserName_text = 2131034117;
+			
+			// aapt resource value: 0x7f050010
+			public const int imageView1 = 2131034128;
 			
 			static Id()
 			{
@@ -77,7 +125,13 @@ namespace IAB330
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int Main = 2130903040;
+			public const int LogIn = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int Main = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Splash = 2130903042;
 			
 			static Layout()
 			{

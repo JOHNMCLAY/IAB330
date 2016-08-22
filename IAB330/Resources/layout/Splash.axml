@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/BG_Splash">
+    <RelativeLayout
+        p1:minWidth="25px"
+        p1:minHeight="10px"
+        p1:layout_width="match_parent"
+        p1:layout_height="wrap_content"
+        p1:id="@+id/SPLIT"
+        p1:background="@android:color/darker_gray"
+        p1:layout_centerVertical="true" />
+    <ImageView
+        p1:src="@android:drawable/ic_menu_gallery"
+        p1:layout_width="wrap_content"
+        p1:layout_height="wrap_content"
+        p1:layout_above="@id/SPLIT"
+        p1:id="@+id/imageView1"
+        p1:minWidth="100dp"
+        p1:minHeight="100dp"
+        p1:layout_centerHorizontal="true"
+        p1:layout_marginBottom="20dp" />
+</RelativeLayout>
