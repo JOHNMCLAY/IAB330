@@ -9,8 +9,8 @@
         p1:layout_width="match_parent"
         p1:layout_height="wrap_content"
         p1:id="@+id/SPLIT"
-        p1:background="@android:color/darker_gray"
-        p1:layout_centerVertical="true" />
+        p1:layout_centerVertical="true"
+        p1:background="@android:color/darker_gray" />
     <ImageView
         p1:src="@android:drawable/ic_menu_gallery"
         p1:layout_width="wrap_content"

@@ -9,7 +9,7 @@
         p1:minWidth="25px"
         p1:minHeight="25px"
         p1:layout_width="match_parent"
-        p1:layout_height="100px"
+        p1:layout_height="150px"
         p1:id="@+id/Header_LAYOUT">
         <TextView
             p1:text="M E R C U R Y"
