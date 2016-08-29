@@ -1,48 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:orientation="vertical"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
     p1:layout_width="match_parent"
     p1:layout_height="match_parent"
-    p1:id="@+id/BG_Splash">
-    <RelativeLayout
-        p1:minWidth="25px"
-        p1:minHeight="10px"
-        p1:layout_width="match_parent"
-        p1:layout_height="wrap_content"
-        p1:id="@+id/SPLIT"
-        p1:layout_centerVertical="true"
-        p1:background="@android:color/darker_gray" />
+    p1:id="@+id/BG"
+    p1:background="@android:color/background_light">
     <ImageView
-        p1:src="@android:drawable/ic_menu_gallery"
-        p1:layout_width="wrap_content"
-        p1:layout_height="wrap_content"
-        p1:layout_above="@id/SPLIT"
-        p1:id="@+id/Logo"
-        p1:minWidth="100dp"
-        p1:minHeight="100dp"
-        p1:layout_centerHorizontal="true"
-        p1:layout_marginBottom="20dp" />
-    <RelativeLayout
-        p1:minWidth="25px"
-        p1:minHeight="100px"
+        p1:src="@drawable/im_01_bg"
         p1:layout_width="match_parent"
-        p1:layout_height="wrap_content"
-        p1:layout_below="@id/SPLIT"
-        p1:id="@+id/AppText_Layout">
-        <TextView
-            p1:text="M E R C U R Y"
-            p1:textAppearance="?android:attr/textAppearanceLarge"
-            p1:layout_width="wrap_content"
-            p1:layout_height="wrap_content"
-            p1:id="@+id/Mercury_Text"
-            p1:layout_centerHorizontal="true"
-            p1:layout_centerVertical="true" />
-    </RelativeLayout>
-    <ImageView
-        p1:src="@android:drawable/ic_menu_gallery"
-        p1:layout_width="wrap_content"
-        p1:layout_height="wrap_content"
-        p1:layout_below="@id/AppText_Layout"
-        p1:id="@+id/TELSTRA_LOGO"
-        p1:layout_centerHorizontal="true"
-        p1:layout_marginTop="50dp" />
-</RelativeLayout>
+        p1:layout_height="match_parent"
+        p1:id="@+id/BG_image"
+        p1:scaleType="centerCrop"
+        p1:alpha="1" />
+</LinearLayout>

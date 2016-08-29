@@ -12,11 +12,36 @@ using Android.Widget;
 
 namespace IAB330
 {
-    class Database
+    public class Database
     {
-        //-LIST OF NAMES [Given & Surname] 
+        //-VARS
+        public List<string> employees = new List<string>();
 
-        //-LIST OF OFFICE AREAS
+
+        
+
+        //-METHODS------------------------------------------
+        public void PopulateEmployeeList () {
+
+            employees.Add("John Smith");
+            employees.Add("Jack Bellings");
+            employees.Add("Harry Kelogg");
+            employees.Add("Joanne Harris");
+            employees.Add("Peter Childs");
+            employees.Add("Barry Graham");
+            employees.Add("Jill Gonzalez");
+            employees.Add("Sophie Bell");
+            employees.Add("Hanlon Bellis");
+            employees.Add("Evie Adler");
+            employees.Add("Holly Johnson");
+            employees.Add("Albert Schrier");
+            employees.Add("Emily Spencer");
+            employees.Add("Julie Wayne");
+            employees.Add("Heather Albertson");
+
+        }
+
+        
 
 
     }

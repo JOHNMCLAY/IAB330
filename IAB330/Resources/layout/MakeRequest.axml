@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Mercury_Layout">
+        <ImageView
+            android:src="@drawable/mercury_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/relativeLayout1">
+        <EditText
+            android:inputType="textNoSuggestions"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/SEARCH_textEdit"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/darker_gray" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/relativeLayout2">
+        <ListView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/LIST_listView"
+            android:background="@android:color/darker_gray" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:id="@+id/relativeLayout3" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:id="@+id/relativeLayout4">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/divider_layout"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:text="SEND REQUEST"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/divider_layout"
+            android:id="@+id/SENDREQUEST_button"
+            android:textColor="@android:color/darker_gray" />
+        <Button
+            android:text="Cancel"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/divider_layout"
+            android:id="@+id/CANCEL_button"
+            android:textColor="@android:color/darker_gray" />
+    </RelativeLayout>
+</LinearLayout>

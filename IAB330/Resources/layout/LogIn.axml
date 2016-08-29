@@ -3,128 +3,260 @@
     p1:orientation="vertical"
     p1:layout_width="match_parent"
     p1:layout_height="match_parent"
-    p1:id="@+id/BG">
-<!-- HEADER CONTAINER -->
+    p1:id="@+id/linearLayout1"
+    p1:background="@android:color/background_light">
     <RelativeLayout
         p1:minWidth="25px"
         p1:minHeight="25px"
         p1:layout_width="match_parent"
-        p1:layout_height="150px"
-        p1:id="@+id/Header_LAYOUT">
-        <TextView
-            p1:text="M E R C U R Y"
-            p1:textAppearance="?android:attr/textAppearanceLarge"
-            p1:layout_width="match_parent"
-            p1:layout_height="match_parent"
+        p1:layout_height="56.0dp"
+        p1:id="@+id/relativeLayout1">
+        <ImageView
+            p1:src="@drawable/mercury_title"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
             p1:id="@+id/MERCURY"
-            p1:gravity="center" />
+            p1:layout_centerHorizontal="true"
+            p1:layout_centerVertical="true"
+            p1:scaleX="0.8"
+            p1:scaleY="0.8" />
     </RelativeLayout>
-<!-- USER DETAILS CONTAINER -->
     <RelativeLayout
-        p1:minWidth="25px"
-        p1:minHeight="25px"
         p1:layout_width="match_parent"
-        p1:layout_height="75dp"
-        p1:id="@+id/UserDetails_LAYOUT"
-        p1:layout_marginLeft="25px">
+        p1:layout_height="60dp"
+        p1:id="@+id/relativeLayout2">
+        <ImageView
+            p1:src="@android:drawable/ic_menu_gallery"
+            p1:layout_width="60dp"
+            p1:layout_height="60dp"
+            p1:id="@+id/ProfilePic_Image"
+            p1:layout_marginLeft="20dp" />
+        <TextView
+            p1:text="User Name"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:layout_toRightOf="@id/ProfilePic_Image"
+            p1:id="@+id/USER_Text"
+            p1:layout_centerVertical="true"
+            p1:textColor="@android:color/darker_gray"
+            p1:layout_marginLeft="10dp" />
+        <TextView
+            p1:text="2"
+            p1:textAppearance="?android:attr/textAppearanceLarge"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/MsgCounter_Text"
+            p1:textColor="@android:color/darker_gray"
+            p1:layout_centerVertical="true"
+            p1:layout_marginLeft="290dp" />
         <ImageView
             p1:src="@android:drawable/ic_menu_gallery"
             p1:layout_width="wrap_content"
             p1:layout_height="wrap_content"
-            p1:id="@+id/ID_Picture"
-            p1:minWidth="80px"
-            p1:minHeight="80px"
-            p1:layout_alignParentLeft="true"
+            p1:layout_toRightOf="@id/MsgCounter_Text"
+            p1:id="@+id/imageView1"
             p1:layout_centerVertical="true"
-            p1:layout_margin="15dp" />
-        <TextView
-            p1:text="User Name"
-            p1:textAppearance="?android:attr/textAppearanceMedium"
-            p1:layout_width="wrap_content"
-            p1:layout_height="match_parent"
-            p1:layout_toRightOf="@id/ID_Picture"
-            p1:id="@+id/UserName_text"
-            p1:gravity="center_vertical" />
-        <TextView
-            p1:text="02 |          "
-            p1:textAppearance="?android:attr/textAppearanceMedium"
-            p1:layout_width="wrap_content"
-            p1:layout_height="match_parent"
-            p1:id="@+id/Request_Counter"
-            p1:gravity="center"
-            p1:layout_alignParentRight="true" />
+            p1:layout_marginLeft="15dp" />
     </RelativeLayout>
-<!-- PIN INPUT CONTAINER -->
     <RelativeLayout
         p1:minWidth="25px"
         p1:minHeight="25px"
         p1:layout_width="match_parent"
-        p1:layout_height="250dp"
-        p1:id="@+id/Pin_LAYOUT">
-        <LinearLayout
-            p1:orientation="vertical"
-            p1:minWidth="75px"
-            p1:minHeight="75px"
-            p1:layout_width="wrap_content"
-            p1:layout_height="wrap_content"
+        p1:layout_height="14.0dp"
+        p1:id="@+id/relativeLayout3" />
+    <RelativeLayout
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="34dp"
+        p1:id="@+id/relativeLayout4">
+        <ImageView
+            p1:src="@drawable/im_02_pin_empty"
+            p1:layout_width="35dp"
+            p1:layout_height="match_parent"
             p1:id="@+id/PinInput_Center"
-            p1:background="@android:color/darker_gray"
-            p1:layout_centerHorizontal="true"
-            p1:layout_centerVertical="true">
-            <LinearLayout
-                p1:orientation="vertical"
-                p1:minWidth="25px"
-                p1:minHeight="25px"
-                p1:layout_width="25dp"
-                p1:layout_height="25dp"
-                p1:id="@+id/PinInputDone_Center"
-                p1:gravity="center"
-                p1:layout_margin="12.5px"
-                p1:background="@android:color/background_dark" />
-        </LinearLayout>
-        <LinearLayout
-            p1:orientation="vertical"
-            p1:minWidth="75px"
-            p1:minHeight="75px"
-            p1:layout_width="wrap_content"
-            p1:layout_height="wrap_content"
+            p1:maxWidth="35dp"
+            p1:scaleType="centerCrop"
+            p1:layout_centerHorizontal="true" />
+        <ImageView
+            p1:src="@drawable/im_02_pin_empty"
+            p1:layout_width="35dp"
+            p1:layout_height="match_parent"
             p1:layout_toLeftOf="@id/PinInput_Center"
             p1:id="@+id/PinInput_Left"
-            p1:layout_centerVertical="true"
-            p1:layout_marginRight="100px"
-            p1:background="@android:color/darker_gray">
-            <LinearLayout
-                p1:orientation="vertical"
-                p1:minWidth="25px"
-                p1:minHeight="25px"
-                p1:layout_width="25dp"
-                p1:layout_height="25dp"
-                p1:id="@+id/PinInputDone_Left"
-                p1:gravity="center"
-                p1:layout_margin="12.5px"
-                p1:background="@android:color/background_dark" />
-        </LinearLayout>
-        <LinearLayout
-            p1:orientation="vertical"
-            p1:minWidth="75px"
-            p1:minHeight="75px"
-            p1:layout_width="wrap_content"
-            p1:layout_height="wrap_content"
+            p1:scaleType="centerCrop"
+            p1:layout_marginRight="10dp" />
+        <ImageView
+            p1:src="@drawable/im_02_pin_empty"
+            p1:layout_width="35dp"
+            p1:layout_height="match_parent"
             p1:layout_toRightOf="@id/PinInput_Center"
             p1:id="@+id/PinInput_Right"
-            p1:layout_centerVertical="true"
-            p1:layout_marginLeft="100px"
-            p1:background="@android:color/darker_gray">
-            <LinearLayout
-                p1:orientation="vertical"
-                p1:minWidth="25px"
-                p1:minHeight="25px"
-                p1:layout_width="25dp"
-                p1:layout_height="25dp"
-                p1:id="@+id/PinInputDone_Right"
-                p1:gravity="center"
-                p1:layout_margin="12.5px"
-                p1:background="@android:color/background_dark" />
-        </LinearLayout>
+            p1:scaleType="centerCrop"
+            p1:layout_marginLeft="10dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="55.0dp"
+        p1:id="@+id/relativeLayout5">
+        <ImageView
+            p1:src="@drawable/im_02_key"
+            p1:layout_width="wrap_content"
+            p1:layout_height="wrap_content"
+            p1:id="@+id/Key_Image"
+            p1:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:layout_width="match_parent"
+        p1:layout_height="312.0dp"
+        p1:id="@+id/relativeLayout6">
+        <ImageButton
+            p1:src="@drawable/im_02_pin_02"
+            p1:layout_width="77.5dp"
+            p1:layout_height="74.5dp"
+            p1:id="@+id/PIN_02_Image"
+            p1:alpha="50"
+            p1:layout_marginTop="15dp"
+            p1:minHeight="75dp"
+            p1:minWidth="80dp"
+            p1:maxWidth="80dp"
+            p1:maxHeight="75dp"
+            p1:scaleType="centerCrop"
+            p1:layout_centerHorizontal="true" />
+        <ImageButton
+            p1:src="@drawable/im_02_pin_01"
+            p1:layout_width="77.5dp"
+            p1:layout_height="74.5dp"
+            p1:id="@+id/PIN_01_Image"
+            p1:alpha="50"
+            p1:layout_marginTop="15dp"
+            p1:minHeight="75dp"
+            p1:minWidth="80dp"
+            p1:maxWidth="80dp"
+            p1:maxHeight="75dp"
+            p1:scaleType="centerCrop"
+            p1:layout_toLeftOf="@id/PIN_02_Image"
+            p1:layout_marginRight="10dp" />
+        <ImageButton
+            p1:src="@drawable/im_02_pin_03"
+            p1:layout_width="77.5dp"
+            p1:layout_height="74.5dp"
+            p1:id="@+id/PIN_03_Image"
+            p1:alpha="50"
+            p1:layout_marginTop="15dp"
+            p1:minHeight="75dp"
+            p1:minWidth="80dp"
+            p1:maxWidth="80dp"
+            p1:maxHeight="75dp"
+            p1:scaleType="centerCrop"
+            p1:layout_toRightOf="@id/PIN_02_Image"
+            p1:layout_marginLeft="10dp" />
+        <ImageButton
+            p1:src="@drawable/im_02_pin_05"
+            p1:layout_width="77.5dp"
+            p1:layout_height="74.5dp"
+            p1:layout_below="@id/PIN_02_Image"
+            p1:id="@+id/PIN_05_Image"
+            p1:alpha="50"
+            p1:layout_marginTop="5dp"
+            p1:minHeight="75dp"
+            p1:minWidth="80dp"
+            p1:maxWidth="80dp"
+            p1:maxHeight="75dp"
+            p1:scaleType="centerCrop"
+            p1:layout_centerHorizontal="true" />
+        <ImageButton
+            p1:src="@drawable/im_02_pin_04"
+            p1:layout_width="77.5dp"
+            p1:layout_height="74.5dp"
+            p1:layout_below="@id/PIN_02_Image"
+            p1:layout_toLeftOf="@id/PIN_05_Image"
+            p1:id="@+id/PIN_04_Image"
+            p1:alpha="50"
+            p1:layout_marginTop="5dp"
+            p1:minHeight="75dp"
+            p1:minWidth="80dp"
+            p1:maxWidth="80dp"
+            p1:maxHeight="75dp"
+            p1:scaleType="centerCrop"
+            p1:layout_centerHorizontal="true"
+            p1:layout_marginRight="10dp" />
+        <ImageButton
+            p1:src="@drawable/im_02_pin_06"
+            p1:layout_width="77.5dp"
+            p1:layout_height="74.5dp"
+            p1:id="@+id/PIN_06_Image"
+            p1:alpha="50"
+            p1:layout_marginTop="5dp"
+            p1:minHeight="75dp"
+            p1:minWidth="80dp"
+            p1:maxWidth="80dp"
+            p1:maxHeight="75dp"
+            p1:scaleType="centerCrop"
+            p1:layout_toRightOf="@id/PIN_05_Image"
+            p1:layout_marginLeft="10dp"
+            p1:layout_below="@id/PIN_02_Image" />
+        <ImageButton
+            p1:src="@drawable/im_02_pin_08"
+            p1:layout_width="77.5dp"
+            p1:layout_height="74.5dp"
+            p1:layout_below="@id/PIN_05_Image"
+            p1:id="@+id/PIN_08_Image"
+            p1:alpha="50"
+            p1:layout_marginTop="5dp"
+            p1:minHeight="75dp"
+            p1:minWidth="80dp"
+            p1:maxWidth="80dp"
+            p1:maxHeight="75dp"
+            p1:scaleType="centerCrop"
+            p1:layout_centerHorizontal="true" />
+        <ImageButton
+            p1:src="@drawable/im_02_pin_07"
+            p1:layout_width="77.5dp"
+            p1:layout_height="74.5dp"
+            p1:layout_below="@id/PIN_04_Image"
+            p1:layout_toLeftOf="@id/PIN_08_Image"
+            p1:id="@+id/PIN_07_Image"
+            p1:alpha="50"
+            p1:layout_marginTop="5dp"
+            p1:minHeight="75dp"
+            p1:minWidth="80dp"
+            p1:maxWidth="80dp"
+            p1:maxHeight="75dp"
+            p1:scaleType="centerCrop"
+            p1:layout_centerHorizontal="true"
+            p1:layout_marginRight="10dp" />
+        <ImageButton
+            p1:src="@drawable/im_02_pin_09"
+            p1:layout_width="77.5dp"
+            p1:layout_height="74.5dp"
+            p1:id="@+id/PIN_09_Image"
+            p1:alpha="50"
+            p1:layout_marginTop="5dp"
+            p1:minHeight="75dp"
+            p1:minWidth="80dp"
+            p1:maxWidth="80dp"
+            p1:maxHeight="75dp"
+            p1:scaleType="centerCrop"
+            p1:layout_toRightOf="@id/PIN_08_Image"
+            p1:layout_marginLeft="10dp"
+            p1:layout_below="@id/PIN_06_Image" />
+        <ImageButton
+            p1:src="@drawable/im_02_pin_backspce"
+            p1:layout_width="77.5dp"
+            p1:layout_height="74.5dp"
+            p1:layout_below="@id/PIN_08_Image"
+            p1:id="@+id/PIN_Backspace"
+            p1:minHeight="75dp"
+            p1:minWidth="80dp"
+            p1:maxWidth="80dp"
+            p1:maxHeight="75dp"
+            p1:scaleType="centerCrop"
+            p1:layout_centerHorizontal="true" />
     </RelativeLayout>
 </LinearLayout>

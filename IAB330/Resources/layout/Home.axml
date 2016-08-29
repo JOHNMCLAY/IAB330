@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/TitleLayout"
+        android:background="@android:color/background_light">
+        <ImageView
+            android:src="@drawable/mercury_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/MERCURY"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserID_Layout"
+        android:background="@android:color/background_light">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ID_Image"
+            android:layout_centerVertical="true"
+            android:minHeight="50dp"
+            android:minWidth="50dp"
+            android:layout_marginLeft="75dp" />
+        <TextView
+            android:text="John Smith"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ID_Image"
+            android:id="@+id/USERNAME_Text"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp" 
+            android:textColor="@android:color/darker_gray" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Seperator_Layout"
+        android:background="@drawable/im_03_userdetails" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/UserDetails_Layout"
+        android:minHeight="150dp"
+        android:background="@android:color/background_light">
+        <RelativeLayout
+            android:minWidth="250dp"
+            android:minHeight="40dp"
+            android:layout_width="245.0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/DateBG_Layout"
+            android:background="@drawable/im_03_underline"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:text="September 21st"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/DATE_text"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/DateBG_Layout"
+            android:id="@+id/TimeBG_Layout"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/im_03_underline">
+            <TextView
+                android:text="10:00 AM"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/TIME_text"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/DateBG_Layout"
+            android:id="@+id/Location_Layout"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/im_03_underline">
+            <TextView
+                android:text="Meeting Room 2A"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/LOCATION_text"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:minWidth="250dp"
+            android:minHeight="40dp"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Location_Layout"
+            android:id="@+id/Status_Layout"
+            android:background="@drawable/im_03_underline"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="STATUS: Available"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/STATUS_text"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:minWidth="105dp"
+            android:minHeight="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Location_Layout"
+            android:id="@+id/Button_Layout"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="270dp"
+            android:background="@android:color/darker_gray">
+            <Button
+                android:text="Button"
+                android:layout_width="105dp"
+                android:layout_height="40dp"
+                android:id="@+id/BUTTON_button"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Buttons_Layout"
+        android:background="@android:color/background_light">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ReqButtonSeparator_Layout"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+        <RelativeLayout
+            android:minWidth="200dp"
+            android:minHeight="45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/ReqButtonSeparator_Layout"
+            android:id="@+id/TopReqButton_Layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/darker_gray">
+            <Button
+                android:text="INCOMING | 2"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:id="@+id/INCOMING_button"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:minWidth="200dp"
+            android:minHeight="45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ReqButtonSeparator_Layout"
+            android:id="@+id/BottomReqButton_Layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/darker_gray">
+            <Button
+                android:text="REQUEST"
+                android:layout_width="200dp"
+                android:layout_height="45dp"
+                android:id="@+id/REQUEST_button"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

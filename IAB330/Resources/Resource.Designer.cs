@@ -41,11 +41,87 @@ namespace IAB330
 			}
 		}
 		
+		public partial class Color
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int theme_custom_background = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int theme_devicedefault_background = 2131034113;
+			
+			static Color()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Color()
+			{
+			}
+		}
+		
 		public partial class Drawable
 		{
 			
 			// aapt resource value: 0x7f020000
 			public const int Icon = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int IM_01_BG = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int IM_02_Key = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int IM_02_KeyRed = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int IM_02_PIN_01 = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int IM_02_PIN_02 = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int IM_02_PIN_03 = 2130837510;
+			
+			// aapt resource value: 0x7f020007
+			public const int IM_02_PIN_04 = 2130837511;
+			
+			// aapt resource value: 0x7f020008
+			public const int IM_02_PIN_05 = 2130837512;
+			
+			// aapt resource value: 0x7f020009
+			public const int IM_02_PIN_06 = 2130837513;
+			
+			// aapt resource value: 0x7f02000a
+			public const int IM_02_PIN_07 = 2130837514;
+			
+			// aapt resource value: 0x7f02000b
+			public const int IM_02_PIN_08 = 2130837515;
+			
+			// aapt resource value: 0x7f02000c
+			public const int IM_02_PIN_09 = 2130837516;
+			
+			// aapt resource value: 0x7f02000d
+			public const int IM_02_PIN_Backspce = 2130837517;
+			
+			// aapt resource value: 0x7f02000e
+			public const int IM_02_Pin_Empty = 2130837518;
+			
+			// aapt resource value: 0x7f02000f
+			public const int IM_02_Pin_Full = 2130837519;
+			
+			// aapt resource value: 0x7f020010
+			public const int IM_03_Underline = 2130837520;
+			
+			// aapt resource value: 0x7f020011
+			public const int IM_03_UserDetails = 2130837521;
+			
+			// aapt resource value: 0x7f020012
+			public const int Mercury_Title = 2130837522;
+			
+			// aapt resource value: 0x7f020013
+			public const int STENCIL_02_LogIn = 2130837523;
 			
 			static Drawable()
 			{
@@ -60,71 +136,182 @@ namespace IAB330
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f050013
-			public const int AppText_Layout = 2131034131;
+			// aapt resource value: 0x7f070039
+			public const int BG = 2131165241;
 			
-			// aapt resource value: 0x7f050000
-			public const int BG = 2131034112;
+			// aapt resource value: 0x7f070030
+			public const int BG_Layout = 2131165232;
 			
-			// aapt resource value: 0x7f05000e
-			public const int BG_Layout = 2131034126;
+			// aapt resource value: 0x7f07003a
+			public const int BG_image = 2131165242;
 			
-			// aapt resource value: 0x7f050010
-			public const int BG_Splash = 2131034128;
+			// aapt resource value: 0x7f070010
+			public const int BUTTON_button = 2131165200;
 			
-			// aapt resource value: 0x7f050001
-			public const int Header_LAYOUT = 2131034113;
+			// aapt resource value: 0x7f070015
+			public const int BottomReqButton_Layout = 2131165205;
 			
-			// aapt resource value: 0x7f050004
-			public const int ID_Picture = 2131034116;
+			// aapt resource value: 0x7f07000f
+			public const int Button_Layout = 2131165199;
 			
-			// aapt resource value: 0x7f050012
-			public const int Logo = 2131034130;
+			// aapt resource value: 0x7f070011
+			public const int Buttons_Layout = 2131165201;
 			
-			// aapt resource value: 0x7f050002
-			public const int MERCURY = 2131034114;
+			// aapt resource value: 0x7f070038
+			public const int CANCEL_button = 2131165240;
 			
-			// aapt resource value: 0x7f050014
-			public const int Mercury_Text = 2131034132;
+			// aapt resource value: 0x7f070008
+			public const int DATE_text = 2131165192;
 			
-			// aapt resource value: 0x7f050009
-			public const int PinInputDone_Center = 2131034121;
+			// aapt resource value: 0x7f070007
+			public const int DateBG_Layout = 2131165191;
 			
-			// aapt resource value: 0x7f05000b
-			public const int PinInputDone_Left = 2131034123;
+			// aapt resource value: 0x7f070003
+			public const int ID_Image = 2131165187;
 			
-			// aapt resource value: 0x7f05000d
-			public const int PinInputDone_Right = 2131034125;
+			// aapt resource value: 0x7f070014
+			public const int INCOMING_button = 2131165204;
 			
-			// aapt resource value: 0x7f050008
-			public const int PinInput_Center = 2131034120;
+			// aapt resource value: 0x7f070024
+			public const int Key_Image = 2131165220;
 			
-			// aapt resource value: 0x7f05000a
-			public const int PinInput_Left = 2131034122;
+			// aapt resource value: 0x7f070035
+			public const int LIST_listView = 2131165237;
 			
-			// aapt resource value: 0x7f05000c
-			public const int PinInput_Right = 2131034124;
+			// aapt resource value: 0x7f07000c
+			public const int LOCATION_text = 2131165196;
 			
-			// aapt resource value: 0x7f050007
-			public const int Pin_LAYOUT = 2131034119;
+			// aapt resource value: 0x7f07000b
+			public const int Location_Layout = 2131165195;
 			
-			// aapt resource value: 0x7f050006
-			public const int Request_Counter = 2131034118;
+			// aapt resource value: 0x7f070001
+			public const int MERCURY = 2131165185;
 			
-			// aapt resource value: 0x7f050011
-			public const int SPLIT = 2131034129;
+			// aapt resource value: 0x7f070033
+			public const int Mercury_Layout = 2131165235;
 			
-			// aapt resource value: 0x7f050015
-			public const int TELSTRA_LOGO = 2131034133;
+			// aapt resource value: 0x7f070032
+			public const int ModText = 2131165234;
 			
-			// aapt resource value: 0x7f05000f
-			public const int TapToStart = 2131034127;
+			// aapt resource value: 0x7f07001c
+			public const int MsgCounter_Text = 2131165212;
 			
-			// aapt resource value: 0x7f050003
-			public const int UserDetails_LAYOUT = 2131034115;
+			// aapt resource value: 0x7f070027
+			public const int PIN_01_Image = 2131165223;
 			
-			// aapt resource value: 0x7f050005
-			public const int UserName_text = 2131034117;
+			// aapt resource value: 0x7f070026
+			public const int PIN_02_Image = 2131165222;
+			
+			// aapt resource value: 0x7f070028
+			public const int PIN_03_Image = 2131165224;
+			
+			// aapt resource value: 0x7f07002a
+			public const int PIN_04_Image = 2131165226;
+			
+			// aapt resource value: 0x7f070029
+			public const int PIN_05_Image = 2131165225;
+			
+			// aapt resource value: 0x7f07002b
+			public const int PIN_06_Image = 2131165227;
+			
+			// aapt resource value: 0x7f07002d
+			public const int PIN_07_Image = 2131165229;
+			
+			// aapt resource value: 0x7f07002c
+			public const int PIN_08_Image = 2131165228;
+			
+			// aapt resource value: 0x7f07002e
+			public const int PIN_09_Image = 2131165230;
+			
+			// aapt resource value: 0x7f07002f
+			public const int PIN_Backspace = 2131165231;
+			
+			// aapt resource value: 0x7f070020
+			public const int PinInput_Center = 2131165216;
+			
+			// aapt resource value: 0x7f070021
+			public const int PinInput_Left = 2131165217;
+			
+			// aapt resource value: 0x7f070022
+			public const int PinInput_Right = 2131165218;
+			
+			// aapt resource value: 0x7f07001a
+			public const int ProfilePic_Image = 2131165210;
+			
+			// aapt resource value: 0x7f070016
+			public const int REQUEST_button = 2131165206;
+			
+			// aapt resource value: 0x7f070012
+			public const int ReqButtonSeparator_Layout = 2131165202;
+			
+			// aapt resource value: 0x7f070034
+			public const int SEARCH_textEdit = 2131165236;
+			
+			// aapt resource value: 0x7f070037
+			public const int SENDREQUEST_button = 2131165239;
+			
+			// aapt resource value: 0x7f07000e
+			public const int STATUS_text = 2131165198;
+			
+			// aapt resource value: 0x7f070005
+			public const int Seperator_Layout = 2131165189;
+			
+			// aapt resource value: 0x7f07000d
+			public const int Status_Layout = 2131165197;
+			
+			// aapt resource value: 0x7f07000a
+			public const int TIME_text = 2131165194;
+			
+			// aapt resource value: 0x7f070031
+			public const int TapToStart = 2131165233;
+			
+			// aapt resource value: 0x7f070009
+			public const int TimeBG_Layout = 2131165193;
+			
+			// aapt resource value: 0x7f070000
+			public const int TitleLayout = 2131165184;
+			
+			// aapt resource value: 0x7f070013
+			public const int TopReqButton_Layout = 2131165203;
+			
+			// aapt resource value: 0x7f070004
+			public const int USERNAME_Text = 2131165188;
+			
+			// aapt resource value: 0x7f07001b
+			public const int USER_Text = 2131165211;
+			
+			// aapt resource value: 0x7f070006
+			public const int UserDetails_Layout = 2131165190;
+			
+			// aapt resource value: 0x7f070002
+			public const int UserID_Layout = 2131165186;
+			
+			// aapt resource value: 0x7f070036
+			public const int divider_layout = 2131165238;
+			
+			// aapt resource value: 0x7f07001d
+			public const int imageView1 = 2131165213;
+			
+			// aapt resource value: 0x7f070017
+			public const int linearLayout1 = 2131165207;
+			
+			// aapt resource value: 0x7f070018
+			public const int relativeLayout1 = 2131165208;
+			
+			// aapt resource value: 0x7f070019
+			public const int relativeLayout2 = 2131165209;
+			
+			// aapt resource value: 0x7f07001e
+			public const int relativeLayout3 = 2131165214;
+			
+			// aapt resource value: 0x7f07001f
+			public const int relativeLayout4 = 2131165215;
+			
+			// aapt resource value: 0x7f070023
+			public const int relativeLayout5 = 2131165219;
+			
+			// aapt resource value: 0x7f070025
+			public const int relativeLayout6 = 2131165221;
 			
 			static Id()
 			{
@@ -140,13 +327,19 @@ namespace IAB330
 		{
 			
 			// aapt resource value: 0x7f030000
-			public const int LogIn = 2130903040;
+			public const int Home = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int LogIn = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int Splash = 2130903042;
+			public const int Main = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int MakeRequest = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Splash = 2130903044;
 			
 			static Layout()
 			{
@@ -173,6 +366,22 @@ namespace IAB330
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f060000
+			public const int Theme_Custom = 2131099648;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
