@@ -49,8 +49,8 @@ namespace IAB330
         {
             RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreate(savedInstanceState);
-
             SetContentView(Resource.Layout.LogIn);
+
             // Create your application here
             pin_L = FindViewById<ImageView>(Resource.Id.PinInput_Left);
             pin_C = FindViewById<ImageView>(Resource.Id.PinInput_Center);

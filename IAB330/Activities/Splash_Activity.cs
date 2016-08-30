@@ -37,7 +37,7 @@ namespace IAB330
         {
             base.OnResume();
             //-Setup Splash Timer
-            TimerSetup(1500);
+            TimerSetup(1000);
 
         }
 
@@ -46,7 +46,7 @@ namespace IAB330
             RunOnUiThread(() =>
             {
                 timerCounter++;
-                if (timerCounter == 0) { } 
+                if (timerCounter == 0) { } //-Prevent else/if defaulting to 'else'
                 else if (timerCounter == 1)//-Pre Fade
                 {
                     timer.Stop();
@@ -59,7 +59,7 @@ namespace IAB330
                     splashOpacity += 0.05f;
                     splash.Alpha = splashOpacity;
                 }
-                else if (timerCounter == 25)//-Pre Change
+                else if (timerCounter == 25)//-Pre Activity (Screen) Change
                 {
                     timer.Stop();
                     TimerSetup(500);

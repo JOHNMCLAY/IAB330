@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50.0dp"
+        android:id="@+id/relativeLayout1">
+        <ImageView
+            android:src="@drawable/mercury_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/MERCURY"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/relativeLayout2" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/UserRequest_Container" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/relativeLayout3">
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/PROFILEPIC_image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp" />
+        <TextView
+            android:text="User Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/PROFILEPIC_image"
+            android:id="@+id/USERNAME_text"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:textColor="@android:color/darker_gray" />
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/PROFILEPIC_image"
+            android:id="@+id/MESSAGE_image"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="200dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/relativeLayout4"
+        android:background="@drawable/im_03_underline" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/relativeLayout5"
+        android:background="@android:color/darker_gray">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="275dp"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayout16" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/relativeLayout6">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="275dp"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayout12"
+            android:background="@drawable/im_03_underline">
+            <TextView
+                android:text="Available"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/AVAILABILITY_text"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/relativeLayout12"
+            android:id="@+id/TICK_avail_image" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/relativeLayout7"
+        android:background="@android:color/darker_gray">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="275dp"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayout17" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/relativeLayout8">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="275dp"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayout13"
+            android:background="@drawable/im_03_underline">
+            <TextView
+                android:text="Meeting Room 2A"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/LOCATION_text"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/relativeLayout13"
+            android:id="@+id/TICK_loc_image" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/relativeLayout9"
+        android:background="@android:color/darker_gray">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="275dp"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayout18" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/relativeLayout10">
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="275dp"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayout14"
+            android:background="@drawable/im_03_underline">
+            <TextView
+                android:text="Pre-defined message"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/MESSAGE_text"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
+        <ImageView
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/relativeLayout14"
+            android:id="@+id/TICK_msg_image" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout11"
+        android:background="@android:color/darker_gray" />
+    <RelativeLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout15">
+        <Button
+            android:text="SEND"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/SEND_button"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/darker_gray" />
+    </RelativeLayout>
+</LinearLayout>
