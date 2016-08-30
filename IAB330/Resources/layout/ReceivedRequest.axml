@@ -35,7 +35,7 @@
         android:layout_height="75dp"
         android:id="@+id/relativeLayout4">
         <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
+            android:src="@drawable/profile_01"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:id="@+id/PROFILE_PIC_image"
@@ -52,9 +52,9 @@
             android:layout_marginLeft="15dp"
             android:textColor="@android:color/darker_gray" />
         <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:src="@drawable/message"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_toRightOf="@id/PROFILE_PIC_image"
             android:id="@+id/MESSAGE_image"
             android:layout_centerVertical="true"
@@ -88,7 +88,17 @@
             android:layout_height="match_parent"
             android:layout_toRightOf="@id/relativeLayout9"
             android:id="@+id/relativeLayout12"
-            android:background="@drawable/im_03_underline" />
+            android:background="@drawable/im_03_underline">
+            <TextView
+                android:text="Unavailable"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/STATUS_received_text"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -116,7 +126,17 @@
             android:layout_height="match_parent"
             android:layout_toRightOf="@id/relativeLayout10"
             android:id="@+id/relativeLayout13"
-            android:background="@drawable/im_03_underline" />
+            android:background="@drawable/im_03_underline">
+            <TextView
+                android:text="Kitchen [2nd Floor]"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/LOCATION_received_text"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -144,7 +164,17 @@
             android:layout_height="match_parent"
             android:layout_toRightOf="@id/relativeLayout11"
             android:id="@+id/relativeLayout14"
-            android:background="@drawable/im_03_underline" />
+            android:background="@drawable/im_03_underline">
+            <TextView
+                android:text="N/A"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/MESSAGE_received_text"
+                android:layout_marginLeft="15dp"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
         android:minWidth="25px"

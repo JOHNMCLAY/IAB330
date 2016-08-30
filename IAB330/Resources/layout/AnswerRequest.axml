@@ -36,7 +36,7 @@
         android:layout_height="100dp"
         android:id="@+id/relativeLayout3">
         <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
+            android:src="@drawable/profile_01"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:id="@+id/PROFILEPIC_image"
@@ -53,9 +53,9 @@
             android:layout_marginLeft="15dp"
             android:textColor="@android:color/darker_gray" />
         <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:src="@drawable/message"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
             android:layout_toRightOf="@id/PROFILEPIC_image"
             android:id="@+id/MESSAGE_image"
             android:layout_centerVertical="true"
@@ -67,20 +67,31 @@
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:id="@+id/relativeLayout4"
-        android:background="@drawable/im_03_underline" />
+        android:background="@drawable/send_info" />
     <RelativeLayout
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/relativeLayout5"
-        android:background="@android:color/darker_gray">
+        android:id="@+id/relativeLayout5">
         <RelativeLayout
             android:minWidth="25px"
             android:minHeight="25px"
-            android:layout_width="275dp"
+            android:layout_width="265dp"
             android:layout_height="match_parent"
-            android:id="@+id/relativeLayout16" />
+            android:id="@+id/relativeLayout16"
+            android:background="@drawable/underline_02"
+            android:paddingLeft="10dp"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:text="STATUS:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/STATUS_text"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -100,11 +111,11 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/AVAILABILITY_text"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="20dp"
                 android:textColor="@android:color/darker_gray" />
         </RelativeLayout>
         <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
+            android:src="@drawable/tick"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_toRightOf="@id/relativeLayout12"
@@ -115,14 +126,25 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/relativeLayout7"
-        android:background="@android:color/darker_gray">
+        android:id="@+id/relativeLayout7">
         <RelativeLayout
             android:minWidth="25px"
             android:minHeight="25px"
-            android:layout_width="275dp"
+            android:layout_width="265dp"
             android:layout_height="match_parent"
-            android:id="@+id/relativeLayout17" />
+            android:id="@+id/relativeLayout17"
+            android:background="@drawable/underline_02"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:text="LOCATION:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/LOCATION_text"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -142,11 +164,11 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/LOCATION_text"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="20dp"
                 android:textColor="@android:color/darker_gray" />
         </RelativeLayout>
         <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
+            android:src="@drawable/tick"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_toRightOf="@id/relativeLayout13"
@@ -157,14 +179,25 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/relativeLayout9"
-        android:background="@android:color/darker_gray">
+        android:id="@+id/relativeLayout9">
         <RelativeLayout
             android:minWidth="25px"
             android:minHeight="25px"
-            android:layout_width="275dp"
+            android:layout_width="265dp"
             android:layout_height="match_parent"
-            android:id="@+id/relativeLayout18" />
+            android:id="@+id/relativeLayout18"
+            android:background="@drawable/underline_02"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:text="MESSAGE:"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/MESSAGE_text"
+                android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:textColor="@android:color/darker_gray" />
+        </RelativeLayout>
     </RelativeLayout>
     <RelativeLayout
         android:layout_width="match_parent"
@@ -184,11 +217,11 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/MESSAGE_text"
                 android:layout_centerVertical="true"
-                android:layout_marginLeft="15dp"
+                android:layout_marginLeft="20dp"
                 android:textColor="@android:color/darker_gray" />
         </RelativeLayout>
         <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
+            android:src="@drawable/tick_cross"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_toRightOf="@id/relativeLayout14"
@@ -199,8 +232,7 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/relativeLayout11"
-        android:background="@android:color/darker_gray" />
+        android:id="@+id/relativeLayout11" />
     <RelativeLayout
         android:minWidth="25px"
         android:minHeight="25px"

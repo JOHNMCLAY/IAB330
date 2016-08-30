@@ -26,9 +26,9 @@
         android:id="@+id/UserID_Layout"
         android:background="@android:color/background_light">
         <ImageView
-            android:src="@android:drawable/ic_menu_gallery"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:src="@drawable/profile_01"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:id="@+id/ID_Image"
             android:layout_centerVertical="true"
             android:minHeight="50dp"
@@ -42,7 +42,7 @@
             android:layout_toRightOf="@id/ID_Image"
             android:id="@+id/USERNAME_Text"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="10dp" 
+            android:layout_marginLeft="10dp"
             android:textColor="@android:color/darker_gray" />
     </RelativeLayout>
     <RelativeLayout

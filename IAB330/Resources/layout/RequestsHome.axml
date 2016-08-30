@@ -29,24 +29,24 @@
                 android:minWidth="25px"
                 android:minHeight="25px"
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="5dp"
                 android:id="@+id/relativeLayout5"
-                android:background="@android:color/darker_gray" />
+                android:background="@android:color/background_light" />
             <RelativeLayout
                 android:minWidth="25px"
                 android:minHeight="25px"
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:layout_below="@id/relativeLayout5"
-                android:id="@+id/relativeLayout6" />
+                android:id="@+id/relativeLayout6"
+                android:background="@drawable/sent_requests" />
             <ListView
                 android:minWidth="25px"
                 android:minHeight="25px"
                 android:layout_width="wrap_content"
                 android:layout_height="170dp"
                 android:layout_below="@id/relativeLayout6"
-                android:id="@+id/SENT_REQ_listview"
-                android:background="@android:color/darker_gray" />
+                android:id="@+id/SENT_REQ_listview" />
             <Button
                 android:text="NEW"
                 android:layout_width="125dp"
@@ -68,9 +68,9 @@
                 android:minWidth="25px"
                 android:minHeight="25px"
                 android:layout_width="match_parent"
-                android:layout_height="25dp"
+                android:layout_height="35dp"
                 android:id="@+id/relativeLayout7"
-                android:background="@android:color/darker_gray" />
+                android:background="@drawable/incoming_requests" />
             <ListView
                 android:minWidth="25px"
                 android:minHeight="25px"

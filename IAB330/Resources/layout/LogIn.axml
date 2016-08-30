@@ -26,7 +26,7 @@
         p1:layout_height="60dp"
         p1:id="@+id/relativeLayout2">
         <ImageView
-            p1:src="@android:drawable/ic_menu_gallery"
+            p1:src="@drawable/profile_01"
             p1:layout_width="60dp"
             p1:layout_height="60dp"
             p1:id="@+id/ProfilePic_Image"
@@ -51,9 +51,9 @@
             p1:layout_centerVertical="true"
             p1:layout_marginLeft="290dp" />
         <ImageView
-            p1:src="@android:drawable/ic_menu_gallery"
-            p1:layout_width="wrap_content"
-            p1:layout_height="wrap_content"
+            p1:src="@drawable/message"
+            p1:layout_width="35dp"
+            p1:layout_height="35dp"
             p1:layout_toRightOf="@id/MsgCounter_Text"
             p1:id="@+id/imageView1"
             p1:layout_centerVertical="true"
