@@ -11,6 +11,10 @@ using Android.Views;
 using Android.Widget;
 using System.Timers;
 
+/*
+ * Code (hacked together by) John McLay - n5767148
+ */
+
 namespace IAB330
 {
     [Activity(Label = "Splash Activity", MainLauncher = true)]
@@ -26,10 +30,12 @@ namespace IAB330
         {
             RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreate(bundle);
-            SetContentView(Resource.Layout.Splash);
+            SetContentView(Resource.Layout.L_01_Splash);
             // Create your application here
             splash = FindViewById<ImageView>(Resource.Id.BG_image);
             splash.Alpha = 0;
+
+            this.OnPause();
 
         }
 

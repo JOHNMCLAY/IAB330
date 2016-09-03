@@ -8,7 +8,8 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:id="@+id/relativeLayout1">
+        android:id="@+id/relativeLayout1"
+        android:background="@color/theme_custom_background">
         <ImageView
             android:src="@drawable/mercury_title"
             android:layout_width="wrap_content"
@@ -24,7 +25,8 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="275dp"
-            android:id="@+id/relativeLayout3">
+            android:id="@+id/relativeLayout3"
+            android:background="@color/theme_custom_background">
             <RelativeLayout
                 android:minWidth="25px"
                 android:minHeight="25px"
@@ -43,10 +45,12 @@
             <ListView
                 android:minWidth="25px"
                 android:minHeight="25px"
-                android:layout_width="wrap_content"
+                android:layout_width="350dp"
                 android:layout_height="170dp"
                 android:layout_below="@id/relativeLayout6"
-                android:id="@+id/SENT_REQ_listview" />
+                android:id="@+id/SENT_REQ_listview"
+                android:background="@android:color/darker_gray"
+                android:layout_marginLeft="10dp" />
             <Button
                 android:text="NEW"
                 android:layout_width="125dp"
@@ -63,7 +67,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_below="@id/relativeLayout3"
-            android:id="@+id/relativeLayout4">
+            android:id="@+id/relativeLayout4"
+            android:background="@color/theme_custom_background">
             <RelativeLayout
                 android:minWidth="25px"
                 android:minHeight="25px"
@@ -74,10 +79,12 @@
             <ListView
                 android:minWidth="25px"
                 android:minHeight="25px"
-                android:layout_width="wrap_content"
+                android:layout_width="350dp"
                 android:layout_height="match_parent"
                 android:layout_below="@id/relativeLayout7"
-                android:id="@+id/INCOMING_REQ_listview" />
+                android:id="@+id/INCOMING_REQ_listview"
+                android:background="@android:color/darker_gray"
+                android:layout_marginLeft="10dp" />
         </RelativeLayout>
     </RelativeLayout>
 </LinearLayout>

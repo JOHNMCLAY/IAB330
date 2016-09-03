@@ -42,10 +42,11 @@
         <ListView
             android:minWidth="25px"
             android:minHeight="25px"
-            android:layout_width="match_parent"
+            android:layout_width="350dp"
             android:layout_height="match_parent"
             android:id="@+id/LIST_listView"
-            android:background="@android:color/darker_gray" />
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="17.5dp" />
     </RelativeLayout>
     <RelativeLayout
         android:minWidth="25px"
@@ -65,7 +66,7 @@
             android:id="@+id/divider_layout"
             android:layout_centerHorizontal="true" />
         <Button
-            android:text="SEND REQUEST"
+            android:text="SEND"
             android:layout_width="150dp"
             android:layout_height="match_parent"
             android:layout_toRightOf="@id/divider_layout"

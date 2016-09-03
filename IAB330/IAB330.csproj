@@ -49,12 +49,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Activities\AnswerRequest_Activity.cs" />
     <Compile Include="Activities\Home_Activity.cs" />
     <Compile Include="Activities\LogIn_Activity.cs" />
     <Compile Include="Activities\MakeRequest_Activity.cs" />
+    <Compile Include="Activities\ReceivedRequest_Activity.cs" />
+    <Compile Include="Activities\RequestsHome_Activity.cs" />
     <Compile Include="Activities\Splash_Activity.cs" />
+    <Compile Include="AppData.cs" />
     <Compile Include="Database.cs" />
-    <Compile Include="Activities\MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -62,30 +65,25 @@
     <None Include="GettingStarted.Xamarin" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\LogIn.axml">
+    <AndroidResource Include="Resources\layout\L_02_LogIn.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Splash.axml">
+    <AndroidResource Include="Resources\layout\L_01_Splash.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\Home.axml">
+    <AndroidResource Include="Resources\layout\L_03_00_Home.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\MakeRequest.axml">
+    <AndroidResource Include="Resources\layout\L_03_01_MakeRequest.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\AnswerRequest.axml">
+    <AndroidResource Include="Resources\layout\L_04_02_AnswerRequest.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\RequestsHome.axml">
+    <AndroidResource Include="Resources\layout\L_04_00_RequestsHome.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\ReceivedRequest.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
-    <AndroidResource Include="Resources\layout\Main.axml">
+    <AndroidResource Include="Resources\layout\L_04_01_ReceivedRequest.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>

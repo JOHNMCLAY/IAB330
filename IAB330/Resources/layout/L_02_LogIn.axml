@@ -5,6 +5,7 @@
     p1:layout_height="match_parent"
     p1:id="@+id/linearLayout1"
     p1:background="@android:color/background_light">
+  <!-- 02_LogIn Designed by John McLay - n5767148 -->
     <RelativeLayout
         p1:minWidth="25px"
         p1:minHeight="25px"

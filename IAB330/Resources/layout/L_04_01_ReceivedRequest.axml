@@ -8,7 +8,8 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:id="@+id/relativeLayout1">
+        android:id="@+id/relativeLayout1"
+        android:background="@color/theme_custom_background">
         <ImageView
             android:src="@drawable/mercury_title"
             android:layout_width="wrap_content"
@@ -22,18 +23,20 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="25dp"
-        android:id="@+id/relativeLayout2" />
+        android:id="@+id/relativeLayout2"
+        android:background="@color/theme_custom_background" />
     <RelativeLayout
         android:minWidth="25px"
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="25dp"
         android:id="@+id/relativeLayout3"
-        android:background="@android:color/darker_gray" />
+        android:background="@color/theme_custom_background" />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="75dp"
-        android:id="@+id/relativeLayout4">
+        android:id="@+id/relativeLayout4"
+        android:background="@color/theme_custom_background">
         <ImageView
             android:src="@drawable/profile_01"
             android:layout_width="50dp"
@@ -69,7 +72,8 @@
             android:minHeight="25px"
             android:layout_width="100dp"
             android:layout_height="match_parent"
-            android:id="@+id/relativeLayout9">
+            android:id="@+id/relativeLayout9"
+            android:background="@color/theme_custom_background">
             <TextView
                 android:text="Status:"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -109,7 +113,8 @@
             android:minHeight="25px"
             android:layout_width="100dp"
             android:layout_height="match_parent"
-            android:id="@+id/relativeLayout10">
+            android:id="@+id/relativeLayout10"
+            android:background="@color/theme_custom_background">
             <TextView
                 android:text="Location:"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -147,7 +152,8 @@
             android:minHeight="25px"
             android:layout_width="100dp"
             android:layout_height="match_parent"
-            android:id="@+id/relativeLayout11">
+            android:id="@+id/relativeLayout11"
+            android:background="@color/theme_custom_background">
             <TextView
                 android:text="Message:"
                 android:textAppearance="?android:attr/textAppearanceMedium"
@@ -181,7 +187,8 @@
         android:minHeight="25px"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/relativeLayout8">
+        android:id="@+id/relativeLayout8"
+        android:background="@color/theme_custom_background">
         <Button
             android:text="OK"
             android:layout_width="100dp"

@@ -7,6 +7,7 @@
     p1:layout_height="match_parent"
     p1:id="@+id/BG"
     p1:background="@android:color/background_light">
+  <!-- 01_Splash Designed by John McLay - n5767148 -->
     <ImageView
         p1:src="@drawable/im_01_bg"
         p1:layout_width="match_parent"

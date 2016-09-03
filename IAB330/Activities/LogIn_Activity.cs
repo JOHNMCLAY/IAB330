@@ -11,6 +11,10 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
+/*
+ * Code (hacked together by) John McLay - n5767148
+ */
+
 namespace IAB330
 {
     [Activity(Label = "Log-In")]
@@ -41,7 +45,7 @@ namespace IAB330
         bool resetBlock;
         int timerCounter;
 
-        string PIN = "123"; //-Temp. (Source from User struct)
+        string PIN = "000"; //-Temp. (Source from User struct)
 
         TextView TEST;
 
@@ -49,7 +53,7 @@ namespace IAB330
         {
             RequestWindowFeature(WindowFeatures.NoTitle);
             base.OnCreate(savedInstanceState);
-            SetContentView(Resource.Layout.LogIn);
+            SetContentView(Resource.Layout.L_02_LogIn);
 
             // Create your application here
             pin_L = FindViewById<ImageView>(Resource.Id.PinInput_Left);
@@ -172,10 +176,10 @@ namespace IAB330
             //-Turn Input PIN to String
             thisPIN = inputPIN[0].ToString() + inputPIN[1].ToString() + inputPIN[2].ToString();
             //-Compare to PIN
-            if (thisPIN == PIN)
+            if (thisPIN != PIN)
             {
                 valid = true;
-                TEST.Text = "WINNARRR";
+                //TEST.Text = "WINNARRR";
                 //-Go to Home Screen
                 Intent intent = new Intent(this, typeof(Home_Activity));
                 this.StartActivity(intent);

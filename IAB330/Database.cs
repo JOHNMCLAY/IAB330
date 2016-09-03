@@ -10,18 +10,24 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
+/*
+ * Code (hacked together by) John McLay - n5767148
+ */
+
 namespace IAB330
 {
     public class Database
     {
         //-VARS
         public List<string> employees = new List<string>();
+        public List<string> TEMP_incoming = new List<string>();
+        public List<string> TEMP_sent = new List<string>();
 
 
-        
 
         //-METHODS------------------------------------------
-        public void PopulateEmployeeList () {
+        public void PopulateEmployeeList()
+        {
 
             employees.Add("John Smith");
             employees.Add("Jack Bellings");
@@ -41,8 +47,22 @@ namespace IAB330
 
         }
 
-        
+        public void PopulateTEMPLists()
+        {
+            TEMP_incoming.Add("Hanlon Bellis");
+            TEMP_incoming.Add("Evie Adler");
+            TEMP_incoming.Add("Holly Johnson");
+            TEMP_incoming.Add("Albert Schrier");
+            TEMP_incoming.Add("Emily Spencer");
+            TEMP_incoming.Add("Julie Wayne");
 
+            TEMP_sent.Add("Jack Bellings");
+            TEMP_sent.Add("Harry Kelogg");
+            TEMP_sent.Add("Joanne Harris");
+            TEMP_sent.Add("Peter Childs");
+            TEMP_sent.Add("Barry Graham");
+            TEMP_sent.Add("Jill Gonzalez");
+        }
 
     }
 }
