@@ -34,6 +34,12 @@ namespace IAB330
             // Create your application here
             splash = FindViewById<ImageView>(Resource.Id.BG_image);
             splash.Alpha = 0;
+            //-Click through whenever
+            splash.Click += delegate
+            {
+                Intent intent = new Intent(this, typeof(LogIn_Activity));
+                this.StartActivity(intent);
+            };
 
             this.OnPause();
 
@@ -70,11 +76,9 @@ namespace IAB330
                     timer.Stop();
                     TimerSetup(500);
                 }
-                else //-Transition to Log-In
+                else //-Transition to Log-In [Now unnecessary]
                 {
                     timer.Stop();
-                    Intent intent = new Intent(this, typeof(LogIn_Activity));
-                    this.StartActivity(intent);
                 }
 
             });
